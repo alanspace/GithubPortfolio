@@ -26,7 +26,7 @@ const greeting = {
     "A Quantum Engineer and CTO specializing in translating complex science and data into impactful software and ventures. ⚛️ 📈"
   ),
   // Use your "Venture Builder" CV as it is the most comprehensive.
-resumeLink: "/cv-entrepreneur-shek-lun-leung.pdf",
+resumeLink: "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
   displayGreeting: true
 };
 
@@ -157,7 +157,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -205,7 +205,7 @@ const achievementSection = {
     {
       title: "IBM Qiskit Community Award Winner IBM Qiskit Hackathon Global 2020",
       subtitle:
-        ".",
+        "Quantum Orchestra - A Quantum Computing Application for Music Generation",
       image: require("./assets/images/Qiskit_Community_Award.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -214,40 +214,40 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1NyDu1ng0ra_R0kxZNzIiDKdg4YKUvuI8/view?usp=share_link"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Visit My Repository",
+          url: "https://github.com/alanspace/quantum_orchestra"
         },
         {
-          name: "My Blog",
+          name: "Read My Blog",
           url: "https://alanblogspace.blogspot.com/2020/10/ibm-qiskit-hackathon-global-community.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "International Physics Tournament 2022 - Win the National Selection in a Team",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+"This repository contains the pdf file, Python simulation script, and final report for the research paper:High-Precision Experimental Determination and Theoretical Modeling of the Feigenbaum Constant in a Driven Nonlinear R-L-D Oscillator.",
+      image: require("./assets/images/circuit.png"),
+  imageAlt: "",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View My Repository",
+          url: "https://github.com/alanspace/IPT"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "IBM Qiskit Badges of Engagement",
+      subtitle: "Qiskit Advocate, IBM Quantum Challenge - Fall 2020, IBM Certified Associate Developer -Quantum Computation using Qiskit v0.2X, Qiskit Localization Contributor -Platnum Level Translator - 2021",
+      image: require("./assets/images/QiskitAdvocate.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+    {name: "View All my Badges", url: "https://www.credly.com/users/shek-lun-leung/badges#credly"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -263,16 +263,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://alanblogspace.blogspot.com/p/quantum-computing.html",
+      title: "My Blogs on Quantum Computing",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Vehicles, Artificial Intelligence (AI) and Quantum Computing (QC), Theory and Quantum Computing, Photonic Quantum Computer, Quantum Spatial Search Algorithm on Random Temporal Network, Quantum Search, Quantum Cryptography and Quantum Sensing, Computational Physics, Quantum Optics and Photonics, Nanotechnology, Quantum Internet of Thing (IoT), Quantum Error Correction, Quantum Machine Learning, Quantum Simulation, Quantum Sensing, My little sharing on the IBM Qiskit Global Summer School and the Advocate Test (+ event promotion, About the Advocate Application and My contribution to the Qiskit Community, The Journey from learning Quantum Mechanics to becoming a Qiskit Advocate, What kind of job I should pursue Quantum Computing"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://alanblogspace.blogspot.com/p/physics.html",
+      title: "My Blogs on Physics",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Quantum Mechanics: Phase Velocity Vs Group velocity: Wave Dispersion, Albert Einstein's Birthday, Photoelectric Effect, Electric Field of the Metal Plates, VPython for Physics Episode, IB Physics Syllabus, Key Education Leader Physics Lesson Notes"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -294,27 +294,27 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I LOVE TO SHARE ABOUT TECHNOLOGY AND IT IS HOW I LEARN",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/playlist?list=PLxEqgXoTj7i6_tN5G2I0IWpj0Stw2v1QH"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
+  title: "Resume_Shek_Lun_Leung",
   subtitle: "Feel free to download my resume",
-
+  resumeLink: "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
@@ -330,10 +330,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
