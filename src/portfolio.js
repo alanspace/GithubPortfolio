@@ -188,6 +188,28 @@ const bigProjects = {
           url: "https://github.com/alanspace/QKD_KeyRate_Parameter_Optimization"
         }
       ]
+    },
+    {
+      image: require("./assets/images/QuantumErrorCorrection.png"),
+      projectName: "Quantum Error Correction with Google AI Quantum",
+      projectDesc: "This repository contains a hands-on programming lab designed to construct, visualize, and simulate the surface code for quantum error correction using Google's high-performance quantum circuit simulator, Stim.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Quantum_Error_Correction"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/PostQuantumCryptography.png"),
+      projectName: "Post-Quantum Key Exchange: A Kyber (ML-KEM) Simulation ",
+      projectDesc: "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Post_Quantum_Cryptographty"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -281,7 +303,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Professional Developement",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
