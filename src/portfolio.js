@@ -229,7 +229,7 @@ const achievementSection = {
       subtitle:
         "Quantum Orchestra - A Quantum Computing Application for Music Generation",
       image: require("./assets/images/Qiskit_Community_Award.jpeg"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Qiskit Community Award",
       footerLink: [
         {
           name: "Certification",
