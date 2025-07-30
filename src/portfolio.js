@@ -167,7 +167,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Quantum Related Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Here are some of my projects that showcase my skills and knowledge in Quantum Computing and related fields.",
   projects: [
     {
       image: require("./assets/images/Ericsson.png"),
