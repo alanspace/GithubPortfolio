@@ -297,7 +297,7 @@ const blogSection = {
       url: "https://alanblogspace.blogspot.com/p/physics.html",
       title: "My Blogs on Physics",
       description:
-        "Quantum Mechanics: Phase Velocity Vs Group velocity: Wave Dispersion, Albert Einstein's Birthday, Photoelectric Effect, Electric Field of the Metal Plates, VPython for Physics Episode, IB Physics Syllabus, Key Education Leader Physics Lesson Notes"
+        "Quantum Mechanics: Phase Velocity Vs Group velocity: Wave Dispersion, Albert Einstein's Birthday, Photoelectric Effect, Electric Field of the Metal Plates, VPython for Physics Episode, IB Physics Syllabus, Key Education Leader Physics Lesson Notes and more"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -369,8 +369,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
+  openSource,
   achievementSection,
   blogSection,
   talkSection,
