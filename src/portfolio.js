@@ -16,7 +16,8 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true // Set to false to use 
+  // static SVG
 };
 
 const greeting = {
@@ -44,6 +45,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
+  display: true, 
   title: "What I Do",
   subTitle: "BRIDGING THE GAP BETWEEN DEEP TECH AND PRACTICAL APPLICATION",
   skills: [
@@ -80,8 +82,8 @@ softwareSkills: [
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Google",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "Docker",
@@ -89,6 +91,7 @@ softwareSkills: [
     }
 ],
 };
+
 // Education Section
 
 const educationInfo = {
@@ -157,13 +160,13 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Academic Projects",
+  title: "Quantum Related Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -228,7 +231,7 @@ const achievementSection = {
       title: "IBM Qiskit Community Award Winner IBM Qiskit Hackathon Global 2020",
       subtitle:
         "Quantum Orchestra - A Quantum Computing Application for Music Generation",
-      image: require("./assets/images/Qiskit_Community_Award.jpeg"),
+      image: require("./assets/images/Qiskit_Community_Award.png"),
       imageAlt: "Qiskit Community Award",
       footerLink: [
         {
