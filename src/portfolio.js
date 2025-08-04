@@ -213,6 +213,18 @@ const bigProjects = {
           url: "https://github.com/alanspace/Post_Quantum_Cryptographty"
         }
       ]
+    },
+
+    {
+      image: "https://github.com/QTechnocrats/covid19-detection-chest-xray-dataset/blob/main/images/xray_example.jpeg?raw=true",
+      projectName: "Analysis, Prediction and Evaluation of Covid-19 Datasets using Quanvolutional Neural Network",
+      projectDesc: "This project uses a Quanvolutional Neural Network to analyze, predict, and evaluate COVID-19 from chest X-ray image datasets. The approach involves preprocessing the images, applying a multi-layered Quanvolutional network, and using a two-model classifier to distinguish between 'Normal', 'COVID-19', and 'Viral Pneumonia' cases.",
+      footerLink : [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
