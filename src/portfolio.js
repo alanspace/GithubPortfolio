@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use 
+  animated: true // Set to false to use
   // static SVG
 };
 
@@ -27,7 +27,8 @@ const greeting = {
     "A Quantum Engineer and CTO specializing in translating complex science and data into impactful software and ventures. ⚛️ 📈"
   ),
   // Use your "Venture Builder" CV as it is the most comprehensive.
-resumeLink: "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
   displayGreeting: true
 };
 
@@ -45,7 +46,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  display: true, 
+  display: true,
   title: "What I Do",
   subTitle: "BRIDGING THE GAP BETWEEN DEEP TECH AND PRACTICAL APPLICATION",
   skills: [
@@ -63,15 +64,15 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
- // This list screams "Deep Tech & Data Expert"
-softwareSkills: [
+  // This list screams "Deep Tech & Data Expert"
+  softwareSkills: [
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "PyTorch / TensorFlow", // Highlights your AI/ML expertise
-      fontAwesomeClassname: "fas fa-brain" 
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
       skillName: "Quantum Computing", // Represents your entire quantum stack (Qiskit, etc.)
@@ -89,7 +90,7 @@ softwareSkills: [
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
-],
+  ]
 };
 
 // Education Section
@@ -100,7 +101,8 @@ const educationInfo = {
     {
       schoolName: "Royal Institute of Technology (KTH)",
       logo: require("./assets/images/KTH.png"), // You will need to find and add a KTH logo to this folder
-      subHeader: "Master of Science in Engineering Physics (Quantum Technology)",
+      subHeader:
+        "Master of Science in Engineering Physics (Quantum Technology)",
       duration: "Present - Expected 2026",
       desc: "Key Coursework: Advanced Quantum Mechanics, Quantum Information & Algorithms, Quantum Photonics & Entanglement."
       // descBullets are optional if desc is enough
@@ -167,12 +169,15 @@ const openSource = {
 
 const bigProjects = {
   title: "Quantum Related Projects",
-  subtitle: "Here are some of my projects that showcase my skills and knowledge in Quantum Computing and related fields.",
+  subtitle:
+    "Here are some of my projects that showcase my skills and knowledge in Quantum Computing and related fields.",
   projects: [
     {
       image: require("./assets/images/Ericsson.png"),
-      projectName: "Master Thesis Project at Ericsson AB - Communication and Error Correction via Polarisation of Single Photons and Time_Ordering",
-      projectDesc: "This repository contains the Python code, simulations, and analysis for the Master's thesis. The research investigates the information-carrying capacity of single photons and proposes a novel protocol named Beyond Pulse Position Modulation (BPPM).",
+      projectName:
+        "Master Thesis Project at Ericsson AB - Communication and Error Correction via Polarisation of Single Photons and Time_Ordering",
+      projectDesc:
+        "This repository contains the Python code, simulations, and analysis for the Master's thesis. The research investigates the information-carrying capacity of single photons and proposes a novel protocol named Beyond Pulse Position Modulation (BPPM).",
       footerLink: [
         {
           name: "Visit Github Repository",
@@ -183,8 +188,10 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/NQCIS.png"),
-      projectName: "Master Student Project at NQCIS - Machine Learning for Quantum Key Distribution Network Optimization",
-      projectDesc: "This repository contains the code and analysis for the project, which investigates the use of neural networks (NNs) to accelerate the parameter optimization of decoy-state BB84 QKD systems.",
+      projectName:
+        "Master Student Project at NQCIS - Machine Learning for Quantum Key Distribution Network Optimization",
+      projectDesc:
+        "This repository contains the code and analysis for the project, which investigates the use of neural networks (NNs) to accelerate the parameter optimization of decoy-state BB84 QKD systems.",
       footerLink: [
         {
           name: "Visit Github Repository",
@@ -195,7 +202,8 @@ const bigProjects = {
     {
       image: require("./assets/images/QuantumErrorCorrection.png"),
       projectName: "Quantum Error Correction with Google AI Quantum",
-      projectDesc: "This repository contains a hands-on programming lab designed to construct, visualize, and simulate the surface code for quantum error correction using Google's high-performance quantum circuit simulator, Stim.",
+      projectDesc:
+        "This repository contains a hands-on programming lab designed to construct, visualize, and simulate the surface code for quantum error correction using Google's high-performance quantum circuit simulator, Stim.",
       footerLink: [
         {
           name: "Visit Github Repository",
@@ -206,7 +214,8 @@ const bigProjects = {
     {
       image: require("./assets/images/PostQuantumCryptography.png"),
       projectName: "Post-Quantum Key Exchange: A Kyber (ML-KEM) Simulation ",
-      projectDesc: "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
+      projectDesc:
+        "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
       footerLink: [
         {
           name: "Visit Github Repository",
@@ -216,10 +225,13 @@ const bigProjects = {
     },
 
     {
-      image: "https://github.com/QTechnocrats/covid19-detection-chest-xray-dataset/blob/main/images/xray_example.jpeg?raw=true",
-      projectName: "Analysis, Prediction and Evaluation of Covid-19 Datasets using Quanvolutional Neural Network",
-      projectDesc: "This project uses a Quanvolutional Neural Network to analyze, predict, and evaluate COVID-19 from chest X-ray image datasets. The approach involves preprocessing the images, applying a multi-layered Quanvolutional network, and using a two-model classifier to distinguish between 'Normal', 'COVID-19', and 'Viral Pneumonia' cases.",
-      footerLink : [
+      image:
+        "https://github.com/QTechnocrats/covid19-detection-chest-xray-dataset/blob/main/images/xray_example.jpeg?raw=true",
+      projectName:
+        "Analysis, Prediction and Evaluation of Covid-19 Datasets using Quanvolutional Neural Network",
+      projectDesc:
+        "This project uses a Quanvolutional Neural Network to analyze, predict, and evaluate COVID-19 from chest X-ray image datasets. The approach involves preprocessing the images, applying a multi-layered Quanvolutional network, and using a two-model classifier to distinguish between 'Normal', 'COVID-19', and 'Viral Pneumonia' cases.",
+      footerLink: [
         {
           name: "Visit Github Repository",
           url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
@@ -240,7 +252,8 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "IBM Qiskit Community Award Winner IBM Qiskit Hackathon Global 2020",
+      title:
+        "IBM Qiskit Community Award Winner IBM Qiskit Hackathon Global 2020",
       subtitle:
         "Quantum Orchestra - A Quantum Computing Application for Music Generation",
       image: require("./assets/images/Qiskit_Community_Award.png"),
@@ -261,11 +274,12 @@ const achievementSection = {
       ]
     },
     {
-      title: "International Physics Tournament 2022 - Win the National Selection in a Team",
+      title:
+        "International Physics Tournament 2022 - Win the National Selection in a Team",
       subtitle:
-"This repository contains the pdf file, Python simulation script, and final report for the research paper:High-Precision Experimental Determination and Theoretical Modeling of the Feigenbaum Constant in a Driven Nonlinear R-L-D Oscillator.",
+        "This repository contains the pdf file, Python simulation script, and final report for the research paper:High-Precision Experimental Determination and Theoretical Modeling of the Feigenbaum Constant in a Driven Nonlinear R-L-D Oscillator.",
       image: require("./assets/images/circuit.png"),
-  imageAlt: "",
+      imageAlt: "",
       footerLink: [
         {
           name: "View My Repository",
@@ -276,11 +290,15 @@ const achievementSection = {
 
     {
       title: "IBM Qiskit Badges of Engagement",
-      subtitle: "Qiskit Advocate, IBM Quantum Challenge - Fall 2020, IBM Certified Associate Developer -Quantum Computation using Qiskit v0.2X, Qiskit Localization Contributor -Platnum Level Translator - 2021",
+      subtitle:
+        "Qiskit Advocate, IBM Quantum Challenge - Fall 2020, IBM Certified Associate Developer -Quantum Computation using Qiskit v0.2X, Qiskit Localization Contributor -Platnum Level Translator - 2021",
       image: require("./assets/images/QiskitAdvocate.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-    {name: "View All my Badges", url: "https://www.credly.com/users/shek-lun-leung/badges#credly"},
+        {
+          name: "View All my Badges",
+          url: "https://www.credly.com/users/shek-lun-leung/badges#credly"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -351,7 +369,8 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume_Shek_Lun_Leung",
   subtitle: "Feel free to download my resume",
-  resumeLink: "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1QdPPIkT8g7CAfRJaWLNGJXsQscP_N7o3/view?usp=share_link",
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };

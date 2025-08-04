@@ -54,10 +54,10 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-<DisplayLottie animationData={cloudcomputing}/>
+              <DisplayLottie animationData={cloudcomputing} />
             ) : (
               <img
-alt="man sitting on table"
+                alt="man sitting on table"
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
