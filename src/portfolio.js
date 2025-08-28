@@ -170,7 +170,7 @@ const openSource = {
 const bigProjects = {
   title: "Quantum Related Projects",
   subtitle:
-    "Here are some of my projects that showcase my skills and knowledge in Quantum Computing and related fields.",
+    "Here are some of my projects that showcase my skills and knowledge in Quantum Technology and related fields.",
   projects: [
     {
       image: require("./assets/images/Ericsson.png"),
@@ -223,6 +223,7 @@ const bigProjects = {
         }
       ]
     },
+  
 
     {
       image:
@@ -237,11 +238,110 @@ const bigProjects = {
           url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
         }
       ]
+    }, 
+    {
+      image: require("./assets/images/qpong_p8_0.gif"),
+      projectName: "Q Pong with Raspberry Pi",
+      projectDesc:
+        "Ever wished for a personal quantum computer? We made it happen! This project details how to turn a Retro Pi into a simulated quantum computer for playing QPong, a PICO-8 game. You can delve into QPong online and view the project's GitHub.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/QPong_RaspberryPi"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+const smallProjects = {
+  title: "AI Related Projects",
+  subtitle:
+    "Here are some of my projects that showcase my skills and knowledge in artificial intelligence and related fields.",
+  projects: [
+    {
+      image: require("./assets/images/gradcam_comparison.png"),
+      projectName:
+        "Interpretability in Deep Learning A Grad CAM Analysis of CNNs",
+      projectDesc:
+        "This project explores and compares two CNN architectures for classifying vegetable images (cucumbers, eggplants, mushrooms): a custom-built model and a fine-tuned ResNet18. Utilizing Grad-CAM, I visualize and interpret their internal decision-making processes, demonstrating the superior performance and interpretability of transfer learning with state-of-the-art models like ResNet18 over a custom baseline.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Interpretability-in-Deep-Learning-A-Grad-CAM-Analysis-of-CNNs"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/segmentation_prediction_result.png"),
+      projectName:
+        "Road Segmentation with U-Net and PyTorch",
+      projectDesc:
+        "PyTorch implementation of a U-Net model for high-resolution road segmentation from aerial imagery. Leveraging `segmentation_models_pytorch` with a pre-trained `efficientnet-b0` encoder and `albumentations` for data augmentation, this project achieves robust semantic segmentation on the Massachusetts Roads Dataset. Features a complete training pipeline, custom dataset handling, and clear inference example.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Road-Segmentation-with-U-Net-and-PyTorch"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/weather_prediction.jpeg"),
+      projectName: "Predicting Weather with Neural Networks",
+      projectDesc:
+        "This repository contains a complete, end-to-end data science project focused on predicting whether it will rain the next day in Perth, Australia. It utilizes a neural network (Multi-layer Perceptron) and demonstrates a robust, best-practice machine learning workflow from data cleaning and feature engineering to model optimization and real-world application.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Predicting_Weather_with_Neural_Networks/tree/main"
+        }
+      ]
+    },
+    // {
+    //   image: require("./assets/images/PostQuantumCryptography.png"),
+    //   projectName: "Algorithm Trading",
+    //   projectDesc:
+    //     "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Github Repository",
+    //       url: "https://github.com/alanspace/Algorithm_Trading"
+    //     }
+    //   ]
+    // },
+  
+
+    // {
+    //   image:
+    //     "https://github.com/QTechnocrats/covid19-detection-chest-xray-dataset/blob/main/images/xray_example.jpeg?raw=true",
+    //   projectName:
+    //     "Analysis, Prediction and Evaluation of Covid-19 Datasets using Quanvolutional Neural Network",
+    //   projectDesc:
+    //     "This project uses a Quanvolutional Neural Network to analyze, predict, and evaluate COVID-19 from chest X-ray image datasets. The approach involves preprocessing the images, applying a multi-layered Quanvolutional network, and using a two-model classifier to distinguish between 'Normal', 'COVID-19', and 'Viral Pneumonia' cases.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Github Repository",
+    //       url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
+    //     }
+    //   ]
+    // }, 
+    // {
+    //   image: require("./assets/images/qpong_p8_0.gif"),
+    //   projectName: "Q Pong with Raspberry Pi",
+    //   projectDesc:
+    //     "Ever wished for a personal quantum computer? We made it happen! This project details how to turn a Retro Pi into a simulated quantum computer for playing QPong, a PICO-8 game. You can delve into QPong online and view the project's GitHub.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Github Repository",
+    //       url: "https://github.com/alanspace/QPong_RaspberryPi"
+    //     }
+    //   ]
+    // }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 // Achievement Section
 // Include certificates, talks etc
 
@@ -401,6 +501,7 @@ export {
   techStack,
   workExperiences,
   bigProjects,
+  smallProjects,
   openSource,
   achievementSection,
   blogSection,
