@@ -11,10 +11,11 @@ WORKDIR /app
 # where available (npm@5+)
 COPY package.json ./
 
-RUN apk add --no-cache git
+RUN apk update && apk add --no-cache git
 
-# Install any needed packages
-RUN npm install
+RUN npm config set fetch-retry-maxtimeout 60000 && \
+    npm config set fetch-retry-mintimeout 10000 && \
+    npm install --verbose
 
 # Audit fix npm packages
 RUN npm audit fix

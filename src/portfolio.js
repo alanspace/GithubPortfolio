@@ -299,18 +299,18 @@ const smallProjects = {
         }
       ]
     },
-    // {
-    //   image: require("./assets/images/PostQuantumCryptography.png"),
-    //   projectName: "Algorithm Trading",
-    //   projectDesc:
-    //     "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Github Repository",
-    //       url: "https://github.com/alanspace/Algorithm_Trading"
-    //     }
-    //   ]
-    // },
+    {
+      image: require("./assets/images/Energy_Sector.png"),
+      projectName: "Algorithmic Trading Analysis Toolkit",
+      projectDesc:
+        "A comprehensive toolkit for quantitative analysis, sentiment analysis, and algorithmic trading strategies. Features include technical analysis, NLP-based sentiment analysis, portfolio optimization (maximizing Sharpe Ratio), LSTM-based price predictions, risk analysis via PCA, and strategy backtesting.",
+      footerLink: [
+        {
+          name: "Visit Github Repository",
+          url: "https://github.com/alanspace/Algorithm_Trading"
+        }
+      ]
+    },
   
 
     // {
