@@ -21,10 +21,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Alan Leung",
-  title: "Hi all, I'm Alan",
+  username: "Shek Lun Leung (Alan)",
+  title: "Hi there, I'm Alan",
   subTitle: emoji(
-    "A Quantum Engineer and CTO specializing in translating complex science and data into impactful software and ventures. ⚛️ 📈"
+    "Master of Science in Engineering Physics (Quantum Technology) @ KTH | AI Researcher | Technical Director. Bridging the gap between theoretical physics, machine learning agents, and scalable software systems."
   ),
   // Use your "Venture Builder" CV as it is the most comprehensive.
   resumeLink:
@@ -37,7 +37,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/alanspace",
   linkedin: "https://www.linkedin.com/in/shek-lun-leung-alan/",
-  gmail: "mail.alnaleung@gmail.com",
+  gmail: "sheklunleung.qai@proton.me",
   // If you have a blog or portfolio site, add them here.
   // Medium: "https://medium.com/@your_username",
   display: true
@@ -51,13 +51,13 @@ const skillsSection = {
   subTitle: "BRIDGING THE GAP BETWEEN DEEP TECH AND PRACTICAL APPLICATION",
   skills: [
     emoji(
-      "⚡ Building and implementing advanced mathematical and statistical models for predictive analytics and simulation."
+      "⚡ Optimizing complex systems—from accelerating Quantum Key Distribution (QKD) speeds by 270x to architecting optical Ising machines."
     ),
     emoji(
-      "⚡ Developing robust software for complex physical systems in Quantum Computing, Optics, and AI."
+      "⚡ Building autonomous agents and investigating the simulation-reality gap in AI Safety."
     ),
     emoji(
-      "⚡ Leading the full technology lifecycle for deep tech ventures, from research and prototyping to commercial deployment."
+      "⚡ Expertise in High-Performance ML (JAX/PyTorch), Quantum Information, and nonlinear dynamics."
     )
   ],
 
@@ -71,24 +71,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "PyTorch / TensorFlow", // Highlights your AI/ML expertise
+      skillName: "JAX / PyTorch",
       fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "Quantum Computing", // Represents your entire quantum stack (Qiskit, etc.)
+      skillName: "Quantum Computing (Qiskit)",
       fontAwesomeClassname: "fas fa-atom"
     },
     {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "Google",
-      fontAwesomeClassname: "fab fa-google"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Google Gemini",
+      fontAwesomeClassname: "fab fa-google"
     }
   ]
 };
@@ -100,12 +108,17 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Royal Institute of Technology (KTH)",
-      logo: require("./assets/images/KTH.png"), // You will need to find and add a KTH logo to this folder
+      logo: require("./assets/images/KTH.png"),
       subHeader:
         "Master of Science in Engineering Physics (Quantum Technology)",
       duration: "Present - Expected 2026",
-      desc: "Key Coursework: Advanced Quantum Mechanics, Quantum Information & Algorithms, Quantum Photonics & Entanglement."
-      // descBullets are optional if desc is enough
+      desc: "Specializing in High-Performance ML (JAX/PyTorch), Quantum Information, and AI Safety.",
+      descBullets: [
+        "Advanced Quantum Mechanics (SI2380), Quantum Information (SH2381), Quantum Photonics (SK2450)",
+        "Artificial Intelligence in Society (DM2585), Programming Techniques II (C++/Unix) (DA4007)",
+        "Mathematical Methods in Physics (FK7048), Numerical Analysis II (FEM/FDM) (DA5001)",
+        "Research Methodology: Scientific Assessment & Communicating Nobel-prize winning work."
+      ]
     },
     {
       schoolName: "The Chinese University of Hong Kong",
@@ -144,14 +157,28 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Technical Director",
+      company: "DreamToDone",
+      companylogo: require("./assets/images/metvibee.jpeg"), // Need logo, using placeholder
+      date: "Oct 2025 – Present",
+      desc: "Architecting an AI reasoning ecosystem or creative workflows. Finalist for the KTH Innovation/SSE pitch competition."
+    },
+    {
+      role: "Technical Lead (Hackathon)",
+      company: "Grant Seeker AI",
+      companylogo: require("./assets/images/metvibee.jpeg"), // Need logo, using placeholder
+      date: "Oct 2025 – Present",
+      desc: "Designed a multi-agent ecosystem using Google ADK & Gemini Flash. Implemented sequential orchestration for automated proposal generation."
+    },
+    {
       role: "Chief Technology Officer and Co-founder",
       company: "Metvibee",
       companylogo: require("./assets/images/metvibee.jpeg"),
       date: "2023 – 2024",
-      desc: "Co-founded a deep tech venture, leading the technology strategy and product development from concept to a commercially viable prototype.",
+      desc: "Co-founded a deep tech venture, leading the technology strategy and AR prototype development for urban planning.",
       descBullets: [
-        "Drove the end-to-end technology lifecycle, from research and prototyping to commercial deployment.",
-        "Implemented advanced mathematical and statistical models for predictive analytics and simulation."
+        "Led technology strategy and AR prototype development for urban planning.",
+        "Managed full-stack R&D and stakeholder technical demonstrations."
       ]
     }
   ]
@@ -173,25 +200,22 @@ const bigProjects = {
     "Here are some of my projects that showcase my skills and knowledge in Quantum Technology and related fields.",
   projects: [
     {
-      image: require("./assets/images/Ericsson.png"),
-      projectName:
-        "Master Thesis Project at Ericsson AB - Communication and Error Correction via Polarisation of Single Photons and Time_Ordering",
+      image: require("./assets/images/circuit.png"), // Placeholder for Photonic Ising
+      projectName: "Photonic Ising Machine",
       projectDesc:
-        "This repository contains the Python code, simulations, and analysis for the Master's thesis. The research investigates the information-carrying capacity of single photons and proposes a novel protocol named Beyond Pulse Position Modulation (BPPM).",
+        "Architected an optical Ising machine using Spatial Light Modulation (SLM) to solve NP-hard combinatorial optimization problems. Implemented using Python, Opics, and Optimization algorithms.",
       footerLink: [
         {
           name: "Visit Github Repository",
-          url: "https://github.com/alanspace/Communication_and_Error_Correction_via_Polarisation_of_Single_Photons_and_Time_Ordering"
+          url: "https://github.com/alanspace/Photonic_Computing"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/NQCIS.png"),
-      projectName:
-        "Master Student Project at NQCIS - Machine Learning for Quantum Key Distribution Network Optimization",
+      projectName: "ML for QKD Optimization",
       projectDesc:
-        "This repository contains the code and analysis for the project, which investigates the use of neural networks (NNs) to accelerate the parameter optimization of decoy-state BB84 QKD systems.",
+        "Designed a hybrid JAX/PyTorch pipeline for real-time parameter prediction in quantum networks, achieving a ~270x speedup across 6,000 scenarios. Investigates Neural Networks for decoy-state BB84 QKD systems.",
       footerLink: [
         {
           name: "Visit Github Repository",
@@ -200,54 +224,38 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/QuantumErrorCorrection.png"),
-      projectName: "Quantum Error Correction with Google AI Quantum",
+      image: require("./assets/images/gradcam_comparison.png"), // Placeholder for AI
+      projectName: "Autonomy in AI: Subjectivity",
       projectDesc:
-        "This repository contains a hands-on programming lab designed to construct, visualize, and simulate the surface code for quantum error correction using Google's high-performance quantum circuit simulator, Stim.",
+        "Investigated the simulation-reality gap in LLM-powered humanoid robots and proposed accountability frameworks for autonomous agents. Focuses on AI Safety and LLMs.",
       footerLink: [
         {
           name: "Visit Github Repository",
-          url: "https://github.com/alanspace/Quantum_Error_Correction"
+          url: "https://github.com/alanspace/Autonomy-in-AI-Research"
         }
       ]
     },
     {
-      image: require("./assets/images/PostQuantumCryptography.png"),
-      projectName: "Post-Quantum Key Exchange: A Kyber (ML-KEM) Simulation ",
+      image: require("./assets/images/circuit.png"), // Placeholder
+      projectName: "Nonlinear Dynamics & Chaos",
       projectDesc:
-        "This repository contains a Python script that simulates and explains the Kyber (ML-KEM) algorithm, the primary post-quantum key exchange mechanism selected for standardization by NIST.",
+        "First-principles derivation of nonlinear ODEs and automated measurement of the Feigenbaum constant (δ = 4.67 ± 0.08).",
       footerLink: [
         {
           name: "Visit Github Repository",
-          url: "https://github.com/alanspace/Post_Quantum_Cryptographty"
+          url: "https://github.com/alanspace/nonlinear-dynamics-chaos"
         }
       ]
     },
-  
-
     {
-      image:
-        "https://github.com/QTechnocrats/covid19-detection-chest-xray-dataset/blob/main/images/xray_example.jpeg?raw=true",
-      projectName:
-        "Analysis, Prediction and Evaluation of Covid-19 Datasets using Quanvolutional Neural Network",
+      image: require("./assets/images/Ericsson.png"),
+      projectName: "Master Thesis: Secure Comm (Ericsson AB)",
       projectDesc:
-        "This project uses a Quanvolutional Neural Network to analyze, predict, and evaluate COVID-19 from chest X-ray image datasets. The approach involves preprocessing the images, applying a multi-layered Quanvolutional network, and using a two-model classifier to distinguish between 'Normal', 'COVID-19', and 'Viral Pneumonia' cases.",
+        "Analyzed Beyond Pulse Position Modulation (BPPM) for energy-efficient security, proving superior information density via large-scale simulations. Investigated information-carrying capacity of single photons.",
       footerLink: [
         {
           name: "Visit Github Repository",
-          url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
-        }
-      ]
-    }, 
-    {
-      image: require("./assets/images/qpong_p8_0.gif"),
-      projectName: "Q Pong with Raspberry Pi",
-      projectDesc:
-        "Ever wished for a personal quantum computer? We made it happen! This project details how to turn a Retro Pi into a simulated quantum computer for playing QPong, a PICO-8 game. You can delve into QPong online and view the project's GitHub.",
-      footerLink: [
-        {
-          name: "Visit Github Repository",
-          url: "https://github.com/alanspace/QPong_RaspberryPi"
+          url: "https://github.com/alanspace/Communication_and_Error_Correction_via_Polarisation_of_Single_Photons_and_Time_Ordering"
         }
       ]
     }
@@ -311,7 +319,7 @@ const smallProjects = {
         }
       ]
     },
-  
+
 
     // {
     //   image:
@@ -352,10 +360,33 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title:
-        "IBM Qiskit Community Award Winner IBM Qiskit Hackathon Global 2020",
+      title: "VCQ & TURIS Summer School (2024) - Vienna, Austria",
       subtitle:
-        "Quantum Orchestra - A Quantum Computing Application for Music Generation",
+        "Advanced training in Quantum Information, General Relativity, Quantum Algorithms, and Quantum Gravity.",
+      image: require("./assets/images/kth.png"), // Placeholder or use a generic 'education/science' icon if available
+      imageAlt: "VCQ Vienna",
+      footerLink: []
+    },
+    {
+      title: "Minato Summer School (2024) - Toulouse, France",
+      subtitle:
+        "Training in Microelectronics, Nanochemistry, and Advanced Fabrication Techniques for Quantum Devices.",
+      image: require("./assets/images/kth.png"),
+      imageAlt: "Minato",
+      footerLink: []
+    },
+    {
+      title: "7th Superconductivity Summer School (2022) - Oxford, UK",
+      subtitle:
+        "Fundamentals of Superconductivity, Applications in Quantum Computing, Materials, and Measurements.",
+      image: require("./assets/images/kth.png"),
+      imageAlt: "Oxford",
+      footerLink: []
+    },
+    {
+      title: "IBM Qiskit Global Hackathon (2020) - Winner",
+      subtitle:
+        "Awarded 'Community Choice' for Quantum Orchestra - A Quantum Computing Application for Music Generation.",
       image: require("./assets/images/Qiskit_Community_Award.png"),
       imageAlt: "Qiskit Community Award",
       footerLink: [
@@ -364,46 +395,50 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1NyDu1ng0ra_R0kxZNzIiDKdg4YKUvuI8/view?usp=share_link"
         },
         {
-          name: "Visit My Repository",
+          name: "Visit Repository",
           url: "https://github.com/alanspace/quantum_orchestra"
-        },
-        {
-          name: "Read My Blog",
-          url: "https://alanblogspace.blogspot.com/2020/10/ibm-qiskit-hackathon-global-community.html"
         }
       ]
     },
     {
-      title:
-        "International Physics Tournament 2022 - Win the National Selection in a Team",
+      title: "International Physicists' Tournament 2022 - National Winner",
       subtitle:
-        "This repository contains the pdf file, Python simulation script, and final report for the research paper:High-Precision Experimental Determination and Theoretical Modeling of the Feigenbaum Constant in a Driven Nonlinear R-L-D Oscillator.",
+        "First-principles derivation and experimental determination of the Feigenbaum Constant.",
       image: require("./assets/images/circuit.png"),
-      imageAlt: "",
+      imageAlt: "IPT 2022",
       footerLink: [
         {
-          name: "View My Repository",
+          name: "View Repository",
           url: "https://github.com/alanspace/IPT"
         }
       ]
     },
-
     {
-      title: "IBM Qiskit Badges of Engagement",
+      title: "IBM Qiskit Engagement & Certification",
       subtitle:
-        "Qiskit Advocate, IBM Quantum Challenge - Fall 2020, IBM Certified Associate Developer -Quantum Computation using Qiskit v0.2X, Qiskit Localization Contributor -Platnum Level Translator - 2021",
+        "Qiskit Advocate, Certified Associate Developer (v0.2X), Platinum Level Translator.",
       image: require("./assets/images/QiskitAdvocate.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Qiskit Badges",
       footerLink: [
         {
-          name: "View All my Badges",
+          name: "View Badges",
           url: "https://www.credly.com/users/shek-lun-leung/badges#credly"
         }
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
       ]
+    },
+    {
+      title: "QAMP 2025 Mentee",
+      subtitle: "Selected for Quantum Certification Tutorial Development mentorship.",
+      image: require("./assets/images/QiskitAdvocate.png"), // Using placeholder
+      imageAlt: "QAMP",
+      footerLink: []
+    },
+    {
+      title: "Technical Mentor - Qiskit Hackathon Taiwan (2021)",
+      subtitle: "Mentored teams on quantum computing projects.",
+      image: require("./assets/images/QiskitAdvocate.png"), // Using placeholder
+      imageAlt: "Mentor",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -479,7 +514,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a business, a project or just want to say hi? My Inbox is open for all.",
-  email_address: "mail.alanleung@gmail.com"
+  email_address: "sheklunleung.qai@proton.me"
 };
 
 // Twitter Section
