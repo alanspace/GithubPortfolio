@@ -284,8 +284,7 @@ const smallProjects = {
     },
     {
       image: require("./assets/images/segmentation_prediction_result.png"),
-      projectName:
-        "Road Segmentation with U-Net and PyTorch",
+      projectName: "Road Segmentation with U-Net and PyTorch",
       projectDesc:
         "PyTorch implementation of a U-Net model for high-resolution road segmentation from aerial imagery. Leveraging `segmentation_models_pytorch` with a pre-trained `efficientnet-b0` encoder and `albumentations` for data augmentation, this project achieves robust semantic segmentation on the Massachusetts Roads Dataset. Features a complete training pipeline, custom dataset handling, and clear inference example.",
       footerLink: [
@@ -318,8 +317,7 @@ const smallProjects = {
           url: "https://github.com/alanspace/Algorithm_Trading"
         }
       ]
-    },
-
+    }
 
     // {
     //   image:
@@ -334,7 +332,7 @@ const smallProjects = {
     //       url: "https://github.com/alanspace/QHACK_Quantum-Classification-of-CT-Scan-on-Diagnosis-COVID-19"
     //     }
     //   ]
-    // }, 
+    // },
     // {
     //   image: require("./assets/images/qpong_p8_0.gif"),
     //   projectName: "Q Pong with Raspberry Pi",
@@ -428,7 +426,8 @@ const achievementSection = {
     },
     {
       title: "QAMP 2025 Mentee",
-      subtitle: "Selected for Quantum Certification Tutorial Development mentorship.",
+      subtitle:
+        "Selected for Quantum Certification Tutorial Development mentorship.",
       image: require("./assets/images/QiskitAdvocate.png"), // Using placeholder
       imageAlt: "QAMP",
       footerLink: []
