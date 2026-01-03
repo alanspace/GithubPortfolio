@@ -361,7 +361,7 @@ const achievementSection = {
       title: "VCQ & TURIS Summer School (2024) - Vienna, Austria",
       subtitle:
         "Advanced training in Quantum Information, General Relativity, Quantum Algorithms, and Quantum Gravity.",
-      image: require("./assets/images/KTH.png"), // Placeholder or use a generic 'education/science' icon if available
+      image: require("./assets/images/turis.jpg"),
       imageAlt: "VCQ Vienna",
       footerLink: []
     },
@@ -369,7 +369,7 @@ const achievementSection = {
       title: "Minato Summer School (2024) - Toulouse, France",
       subtitle:
         "Training in Microelectronics, Nanochemistry, and Advanced Fabrication Techniques for Quantum Devices.",
-      image: require("./assets/images/KTH.png"),
+      image: require("./assets/images/minato.png"),
       imageAlt: "Minato",
       footerLink: []
     },
@@ -377,7 +377,7 @@ const achievementSection = {
       title: "7th Superconductivity Summer School (2022) - Oxford, UK",
       subtitle:
         "Fundamentals of Superconductivity, Applications in Quantum Computing, Materials, and Measurements.",
-      image: require("./assets/images/KTH.png"),
+      image: require("./assets/images/IOP.jpg"),
       imageAlt: "Oxford",
       footerLink: []
     },
