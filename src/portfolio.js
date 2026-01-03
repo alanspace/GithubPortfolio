@@ -97,6 +97,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Google Gemini",
       fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "Autonomous Agents",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Deep Tech / Hardware",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "React / Frontend",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Backend Systems",
+      fontAwesomeClassname: "fas fa-server"
     }
   ]
 };
