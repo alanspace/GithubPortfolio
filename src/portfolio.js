@@ -159,14 +159,14 @@ const workExperiences = {
     {
       role: "Technical Director",
       company: "DreamToDone",
-      companylogo: require("./assets/images/metvibee.jpeg"), // Need logo, using placeholder
+      companylogo: require("./assets/images/DreamToDoneLogo.png"),
       date: "Oct 2025 – Present",
       desc: "Architecting an AI reasoning ecosystem or creative workflows. Finalist for the KTH Innovation/SSE pitch competition."
     },
     {
       role: "Technical Lead (Hackathon)",
       company: "Grant Seeker AI",
-      companylogo: require("./assets/images/metvibee.jpeg"), // Need logo, using placeholder
+      companylogo: require("./assets/images/Grant_Seeker.png"),
       date: "Oct 2025 – Present",
       desc: "Designed a multi-agent ecosystem using Google ADK & Gemini Flash. Implemented sequential orchestration for automated proposal generation."
     },
